@@ -40,5 +40,6 @@ public class Mecanico {
         return "Mecanico{" + "nombre=" + nombre + ", id=" + id + ", especialidad=" + especialidad + '}';
     }
    
+   
     
 }
