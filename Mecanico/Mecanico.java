@@ -53,7 +53,7 @@ public class Mecanico {
         return Objects.hash(id);
     }
     
-    
+    //Comentario
     public static boolean hayDuplicados(List<Mecanico> mecanicos) {
         Set<Mecanico> setMecanicos = new HashSet<>();
         for (Mecanico mecanico : mecanicos) {
