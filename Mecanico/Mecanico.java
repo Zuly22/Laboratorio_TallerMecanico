@@ -4,6 +4,11 @@
  */
 package Mecanico;
 
+import java.util.HashSet;
+import java.util.List;
+import java.util.Objects;
+import java.util.Set;
+
 /**
  *
  * @author zulay
@@ -34,6 +39,30 @@ public class Mecanico {
    public Mecanico (){
        this("", 0, "");
    }
+   
+   @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Mecanico mecanico = (Mecanico) o;
+        return id == mecanico.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
+    }
+    
+    
+    public static boolean hayDuplicados(List<Mecanico> mecanicos) {
+        Set<Mecanico> setMecanicos = new HashSet<>();
+        for (Mecanico mecanico : mecanicos) {
+            if (!setMecanicos.add(mecanico)) {
+                return true; 
+            }
+        }
+        return false; 
+    }
 
     @Override
     public String toString() {
