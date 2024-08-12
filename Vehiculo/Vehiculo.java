@@ -4,11 +4,13 @@
  */
 package Vehiculo;
 
+
+
 /**
  *
  * @author DaniTini
  */
-public class Vehiculo {
+public class Vehiculo { 
     private String matrícula;
     private String modelo;
     private String marca; 
@@ -45,6 +47,4 @@ public class Vehiculo {
     public String toString() {
         return "Vehiculo{" + "matr\u00edcula=" + matrícula + ", modelo=" + modelo + ", marca=" + marca + ", aniofabricaci\u00f3n=" + aniofabricación + '}';
     }
-    
-    
 }
