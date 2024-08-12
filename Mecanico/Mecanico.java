@@ -4,10 +4,7 @@
  */
 package Mecanico;
 
-import java.util.HashSet;
-import java.util.List;
 import java.util.Objects;
-import java.util.Set;
 
 /**
  *
@@ -51,17 +48,6 @@ public class Mecanico {
     @Override
     public int hashCode() {
         return Objects.hash(id);
-    }
-    
-    //Comentario
-    public static boolean hayDuplicados(List<Mecanico> mecanicos) {
-        Set<Mecanico> setMecanicos = new HashSet<>();
-        for (Mecanico mecanico : mecanicos) {
-            if (!setMecanicos.add(mecanico)) {
-                return true; 
-            }
-        }
-        return false; 
     }
 
     @Override
