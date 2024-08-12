@@ -4,6 +4,7 @@
  */
 package Cliente;
 
+import Vehiculo.Vehiculo;
 import java.util.HashMap;
 /**
  *
