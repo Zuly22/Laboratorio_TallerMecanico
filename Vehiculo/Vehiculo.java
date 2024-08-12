@@ -4,11 +4,20 @@
  */
 package Vehiculo;
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> Daniel
 /**
  *
  * @author DaniTini
  */
+<<<<<<< HEAD
 public class Vehiculo {
+=======
+public class Vehiculo { 
+>>>>>>> Daniel
     private String matrícula;
     private String modelo;
     private String marca; 
@@ -45,6 +54,9 @@ public class Vehiculo {
     public String toString() {
         return "Vehiculo{" + "matr\u00edcula=" + matrícula + ", modelo=" + modelo + ", marca=" + marca + ", aniofabricaci\u00f3n=" + aniofabricación + '}';
     }
+<<<<<<< HEAD
     
     
+=======
+>>>>>>> Daniel
 }
